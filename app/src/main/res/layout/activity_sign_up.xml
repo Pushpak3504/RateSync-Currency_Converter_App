@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp"
+    android:orientation="vertical"
+    android:background="@drawable/signup">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textSize="@dimen/_20sdp"
+        android:fontFamily="@font/bold"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_110sdp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Your Full Name :"
+        android:textSize="@dimen/_13sdp"
+        android:fontFamily="@font/regular"
+        android:textColor="@color/white"
+        android:layout_marginLeft="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        />
+
+    <EditText
+        android:id="@+id/fullname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/shape"
+        android:drawableLeft="@drawable/usernamevector"
+        android:hint="Enter Your Full Name"
+        android:padding="@dimen/_8sdp"
+        android:textColor="@color/DarkBlue"
+        android:textColorHint="@color/DarkBlue"
+        android:paddingLeft="@dimen/_10sdp"
+        android:inputType="text"
+        android:drawablePadding="@dimen/_10sdp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Your Email :"
+        android:textSize="@dimen/_13sdp"
+        android:fontFamily="@font/regular"
+        android:textColor="@color/white"
+        android:layout_marginLeft="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/shape"
+        android:drawableLeft="@drawable/email"
+        android:hint="Enter Your Email"
+        android:padding="@dimen/_8sdp"
+        android:textColor="@color/DarkBlue"
+        android:textColorHint="@color/DarkBlue"
+        android:paddingLeft="@dimen/_10sdp"
+        android:inputType="text"
+        android:drawablePadding="@dimen/_10sdp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Password"
+        android:textSize="@dimen/_13sdp"
+        android:fontFamily="@font/regular"
+        android:textColor="@color/white"
+        android:layout_marginLeft="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/shape"
+        android:drawableLeft="@drawable/password_vector"
+        android:hint="Enter Password"
+        android:padding="@dimen/_8sdp"
+        android:textColor="@color/DarkBlue"
+        android:textColorHint="@color/DarkBlue"
+        android:paddingLeft="@dimen/_10sdp"
+        android:inputType="textPassword"
+        android:drawablePadding="@dimen/_10sdp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm Password"
+        android:textSize="@dimen/_13sdp"
+        android:fontFamily="@font/regular"
+        android:textColor="@color/white"
+        android:layout_marginLeft="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        />
+
+    <EditText
+        android:id="@+id/confirmpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/shape"
+        android:drawableLeft="@drawable/confirmpass"
+        android:hint="Confirm Password"
+        android:padding="@dimen/_8sdp"
+        android:textColor="@color/DarkBlue"
+        android:textColorHint="@color/DarkBlue"
+        android:paddingLeft="@dimen/_10sdp"
+        android:inputType="textPassword"
+        android:drawablePadding="@dimen/_10sdp"
+        />
+
+
+    <Button
+        android:id="@+id/signupbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/bold"
+        android:paddingHorizontal="@dimen/_50sdp"
+        android:text="Sign Up"
+        android:textColor="@color/DarkBlue"
+        android:textSize="@dimen/_15sdp"
+        />
+
+</LinearLayout>

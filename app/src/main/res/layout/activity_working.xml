@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Working"
+    android:background="@drawable/signup"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="@dimen/_270sdp"
+        android:layout_height="@dimen/_310sdp"
+        android:layout_centerInParent="true"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="@dimen/_10sdp">
+
+        <TextView
+            android:textColor="@color/MidBlue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_105sdp"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:fontFamily="@font/regular"
+            android:text="Exchange Rate"
+            android:textSize="@dimen/_10sdp" />
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_90sdp"
+            android:layout_marginTop="@dimen/_50sdp"
+            android:fontFamily="@font/extrabold"
+            android:text="Rs. 1000/-"
+            android:textColor="@color/DarkBlue"
+            android:textSize="@dimen/_20sdp" />
+
+        <TextView
+            android:textColor="@color/MidBlue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_90sdp"
+            android:fontFamily="@font/regular"
+            android:text="Amount" />
+
+        <EditText
+            android:id="@+id/input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_110sdp"
+            android:fontFamily="@font/bold"
+            android:inputType="number"
+            android:textColor="@color/DarkBlue"
+            />
+
+        <TextView
+            android:textColor="@color/MidBlue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_150sdp"
+            android:fontFamily="@font/regular"
+            android:text="From" />
+
+        <Spinner
+            android:id="@+id/from"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_175sdp" />
+
+        <TextView
+            android:textColor="@color/MidBlue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_160sdp"
+            android:layout_marginTop="@dimen/_150sdp"
+            android:fontFamily="@font/regular"
+            android:text="To" />
+
+        <Spinner
+            android:id="@+id/to"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_marginLeft="@dimen/_160sdp"
+            android:layout_marginTop="@dimen/_175sdp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_35sdp"
+            android:background="@drawable/confirmpass" />
+
+        <Button
+            android:id="@+id/convert"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_90sdp"
+            android:backgroundTint="@color/MidBlue"
+            android:fontFamily="@font/bold"
+            android:paddingHorizontal="@dimen/_50sdp"
+            android:text="Convert" />
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/prof"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="@dimen/_50sdp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/bold"
+        android:paddingHorizontal="@dimen/_30sdp"
+        android:text="Log Out"
+        android:textColor="@color/MidBlue"
+        android:textSize="@dimen/_15sdp" />
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "437723272946",
+    "project_id": "ratesync-30922",
+    "storage_bucket": "ratesync-30922.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:437723272946:android:8146d9d833f14797c2a26b",
+        "android_client_info": {
+          "package_name": "com.example.ratesync"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAD-5kfFlxJ7IC50tGvjeEfTT4fGg6RpaU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
